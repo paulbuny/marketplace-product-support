@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ozon Crunch</title>
+  <link rel="stylesheet" href="./dist/index.css">
+  <link rel="stylesheet" href="./dist/normalize.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__logo">
+        Sup<sup>team</sup>
+      </div>
+      <div class="login">
+        <button class="button login__button">Авторизация</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="tasks">
+        <ul class="task-list">
+
+          <div class="task-card">
+            <div class="task-card__wrapper">
+              <h2 class="task-card__title">GOODS</h2>
+              <div class="task-card__status"></div>
+            </div>
+            <p class="task-card__description">Нужно что-то сделать СРОЧНО!!</p>
+            <div class="task-card__wrapper">
+              <p class="task-card__date">24.04.2021</p>
+              <p class="task-card__author">Иван Иванов</p>
+            </div>
+          </div>
+
+          <div class="task-card task-card_status_inprogress">
+            <div class="task-card__wrapper">
+              <h2 class="task-card__title">WILDBERRIES</h2>
+              <div class="task-card__status task-card__status_inprogress"></div>
+            </div>
+            <p class="task-card__description">Нужно что-то сделать СРОЧНО!!</p>
+            <div class="task-card__wrapper">
+              <p class="task-card__date">24.04.2021</p>
+              <p class="task-card__author">Иван Иванов</p>
+            </div>
+          </div>
+
+          <div class="task-card task-card_status_resolved">
+            <div class="task-card__wrapper">
+              <h2 class="task-card__title">OZON</h2>
+              <div class="task-card__status task-card__status_resolved"></div>
+            </div>
+            <p class="task-card__description">Нужно что-то сделать СРОЧНО!!</p>
+            <div class="task-card__wrapper">
+              <p class="task-card__date">24.04.2021</p>
+              <p class="task-card__author">Иван Иванов</p>
+            </div>
+          </div>
+
+          <div class="task-card task-card_status_resolved">
+            <div class="task-card__wrapper">
+              <h2 class="task-card__title">OZON</h2>
+              <div class="task-card__status task-card__status_resolved"></div>
+            </div>
+            <p class="task-card__description">Нужно что-то сделать СРОЧНО!!</p>
+            <div class="task-card__wrapper">
+              <p class="task-card__date">24.04.2021</p>
+              <p class="task-card__author">Иван Иванов</p>
+            </div>
+          </div>
+
+        </ul>
+      </section>
+
+      <section class="side-panel">
+        <form class="side-panel__form">
+
+          <label class="side-panel__label" for="marketplace-option">Маркет&colon;</label>
+          <select class="side-panel__selector" name="marketplace-option">
+            <option value="goods">Goods</option>
+            <option value="ozon">Ozon</option>
+            <option value="wildberries">Wildberries</option>
+          </select>
+
+          <label class="side-panel__label" for="author">Имя&colon;</label>
+          <input class="side-panel__input" type="text" name="author" id="">
+
+          <label class="side-panel__label" for="request">Запрос&colon;</label>
+          <textarea class="side-panel__textarea" name="request">
+          </textarea>
+          <input class="button side-panel__button" type="submit" value="Отправить">
+
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright"><sup>&copy;</sup> Pavel Bunyakin - 2021</p>
+    </footer>
+  </div>
+</body>
+</html>
